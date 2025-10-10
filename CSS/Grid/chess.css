@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: black;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    height:800px;
+    width: 800px;
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+
+.white{
+    background-color: white;
+}
+.brown{
+    background-color: brown;
+}

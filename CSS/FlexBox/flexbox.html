@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <main>
+        
+  <h1>Flexbox in CSS</h1>
+    
+
+        <div class="container">
+            <div class="box first">1</div>
+            <div class="box second">2</div>
+            <div class="box third">3</div>
+            <div class="box fourth">4</div>
+        </div>
+
+
+
+
+
+
+
+
+  <p>
+    Flexbox (Flexible Box Layout) is a CSS layout module designed to help you 
+    arrange elements in a container efficiently. It is especially useful for 
+    responsive design and alignment of elements both horizontally and vertically.
+  </p>
+
+  <h2>How to Enable Flexbox</h2>
+  <p>
+    To use Flexbox, set the container's display property to <code>display: flex;</code>. 
+    All direct children of this container become flex items.
+  </p>
+
+  <h2>Main Properties of Flexbox</h2>
+
+  <h3>1. flex-direction</h3>
+  <p>
+    Defines the direction in which flex items are placed inside the flex container.
+  </p>
+  <ul>
+    <li><code>row</code> → Items are placed left to right (default).</li>
+    <li><code>row-reverse</code> → Items are placed right to left.</li>
+    <li><code>column</code> → Items are placed top to bottom.</li>
+    <li><code>column-reverse</code> → Items are placed bottom to top.</li>
+  </ul>
+
+  <h3>2. justify-content</h3>
+  <p>
+    Defines alignment of items along the main axis (horizontal if row, vertical if column).
+  </p>
+  <ul>
+    <li><code>flex-start</code> → Items align at the start.</li>
+    <li><code>flex-end</code> → Items align at the end.</li>
+    <li><code>center</code> → Items align in the center.</li>
+    <li><code>space-between</code> → Items spread out with space between.</li>
+    <li><code>space-around</code> → Items spread with equal space around them.</li>
+    <li><code>space-evenly</code> → Items spread with equal spacing between and outside.</li>
+  </ul>
+
+  <h3>3. align-items</h3>
+  <p>
+    Aligns items along the cross axis (vertical if row, horizontal if column).
+  </p>
+  <ul>
+    <li><code>stretch</code> → Items stretch to fill container (default).</li>
+    <li><code>flex-start</code> → Items align to the start of cross axis.</li>
+    <li><code>flex-end</code> → Items align to the end of cross axis.</li>
+    <li><code>center</code> → Items align in the center.</li>
+    <li><code>baseline</code> → Items align by text baseline.</li>
+  </ul>
+
+  <h3>4. align-content</h3>
+  <p>
+    Used when there are multiple rows (flex-wrap enabled). Controls spacing between rows.
+  </p>
+  <ul>
+    <li><code>flex-start</code>, <code>flex-end</code>, <code>center</code></li>
+    <li><code>space-between</code>, <code>space-around</code>, <code>space-evenly</code></li>
+    <li><code>stretch</code> → Rows stretch to fill space.</li>
+  </ul>
+
+  <h3>5. flex-wrap</h3>
+  <p>
+    Defines if flex items should wrap into multiple lines.
+  </p>
+  <ul id = "public">
+    <li><code>nowrap</code> → All items in one line (default).</li>
+    <li><code>wrap</code> → Items wrap to next line.</li>
+    <li><code>wrap-reverse</code> → Items wrap but in reverse order.</li>
+  </ul>
+
+  <h3>6. flex-flow</h3>
+  <p>
+    A shorthand for <code>flex-direction</code> + <code>flex-wrap</code>.
+    Example: <code>flex-flow: row wrap;</code>
+  </p>
+
+  <h2>Properties for Flex Items</h2>
+
+  <h3>1. order</h3>
+  <p>
+    Controls the order of items (default is 0). Higher values come later.
+  </p>
+
+  <h3>2. flex-grow</h3>
+  <p>
+    Defines how much an item can grow relative to others when extra space is available.
+  </p>
+
+  <h3>3. flex-shrink</h3>
+  <p>
+    Defines how much an item can shrink when space is too small.
+  </p>
+
+  <h3>4. flex-basis</h3>
+  <p>
+    Defines the initial size of a flex item before remaining space is distributed.
+  </p>
+
+  <h3>5. flex (shorthand)</h3>
+  <p>
+    Shorthand for <code>flex-grow</code>, <code>flex-shrink</code>, and <code>flex-basis</code>.  
+    Example: <code>flex: 1 0 100px;</code>
+  </p>
+
+  <h3>6. align-self</h3>
+  <p>
+    Allows a single item to override the container’s <code>align-items</code> property.  
+    Values: <code>auto</code>, <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, <code>stretch</code>
+  </p>
+
+  <h2>Summary</h2>
+  <p>
+    Flexbox provides powerful alignment and spacing controls for web layouts. 
+    By using properties like <code>flex-direction</code>, <code>justify-content</code>, 
+    <code>align-items</code>, and <code>flex</code>, developers can create responsive 
+    and user-friendly designs with less effort compared to traditional methods.
+  </p>
+<p class="body">
+
+
+    <div class="box">
+
+
+
+    </div>
+
+</p>
+
+
+
+    </main>
+</body>
+</html>

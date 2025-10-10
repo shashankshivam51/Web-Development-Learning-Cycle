@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+</head>
+<body>
+    <h1> University Registration Form </h1>
+    Please fill out personal details 
+    <hr>
+
+    <form caption="Personal Details">
+        <caption> <strong>Personal Details</strong></caption>
+     <br>   <label for="fname"> First Name: </label>
+
+        <input type="text" id="fname" name="fname" placeholder="e.g: Shashank">
+
+        <br>
+          <label for="lname"> Last Name: </label>
+
+        <input type="text" id="lname" name="lname" placeholder="e.g: Sinha">
+
+        <br> 
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="name">
+
+        <br>
+        
+        <label>Gender</label><br>
+<label for="male">male</label>
+<input type="radio" name="gender" id="male">
+
+<br>
+<label for="female">female</label>
+<input type="radio" name="gender" id="female">
+
+<br>
+<label for="other">other</label>
+<input type="radio" name="gender" id="other">
+
+<br>
+<h3>Upload Your Photo</h3>
+<input type="file" name="photo">
+<hr>
+<h2>Contact Information</h2>
+<label for="email">Email Address</label>
+<input type="email" name="email" id email>
+<br>
+
+<label for="phone">Phone</label>
+<input type="tel" name="phone" id="phone">
+<br>
+
+<label for="Address"> Address</label>
+<br>
+<textarea name="Address" id="Address" rows="10">  </textarea>
+
+<hr>
+
+
+<h2>Academic Information</h2>
+<label for="course">Select your course</label>
+<select name="course" id="course">
+    <option value="null">Select your course</option>
+    <option value="CSE"> CSE</option>
+    <option value="SSE"> SSE</option>
+    <option value="MBA"> MBA</option>
+</select>
+
+
+<hr>
+<button type="submit"> Register </button>
+
+
+    </form>
+</body>
+</html>

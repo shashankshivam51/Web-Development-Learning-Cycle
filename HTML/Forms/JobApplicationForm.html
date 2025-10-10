@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1> 
+        Job Application: Senior Web Developer
+    </h1>
+    Thank you for your interest in joinning our team. Please fill out the application below.
+
+    <br>
+    <hr>
+
+    <h2>Personal Information</h2>
+    <form>
+    <br>
+    <label for="fname">Full Name:</label>
+    <br>
+    <input type = "text" name="fullname" required id="fullname" placeholder="E.g- Shashank">
+    <br>
+
+    <label for="email">Email: </label><br>
+    <input type="email" required="true" >
+    <br>
+    <label for="Phone">Phone:</label>
+    <br>
+    <input type="tel" name="tel">
+    <br>
+    <label for="Linkedin"> Linledin Profile Url:</label>
+    <input type= "url" id ="Linkedin" name = Linkedin placeholder="www.linkein/Shashankshivam.com">
+    <hr>
+    <h2>Professional Experience</h2>
+    Upload Your Resusume(PDF or DocX):
+    <br>
+    <input type = "file">
+<br>
+    Cover Letter: <br>
+    <textarea id="coverletter" name="coverletter" placeholder="tell us why you want to join us and you are fit for this role"></textarea>
+<br>
+Years of Experience:
+<input type="number" id = "exp" name = "exp" size="2">
+<br>
+Earliest Possible Start Date:
+<input type="date" name="joiing date" id ="jd">
+
+<hr>
+<h2>Skils & Availablity</h2>
+<br>
+<label>Primary Skillset(Choose one)</label>
+<br> <input type="radio" = name="skills" id ="frontenddevelopment" value="Frontend Development"
+<label for="frontenddevelopment">Frontend Development</label>
+<br>
+<br> <input type="radio" = name="skills" id ="backenddevelopment" value="Backend Development"
+<label for="backenddevelopment">Backend Development</label>
+<br>
+
+<br> <input type="radio" = name="skills" id ="Full Stack" value="Full Stack Development Development"
+<label for="Full Stack">Full Stack Development</label>
+<br>
+<br>
+Additional Skills (Select all that apply)
+<input type ="checkbox" id ="react" name="Additional Skills" value="React">
+<label for="react">React</label>
+<br>
+
+<input type ="checkbox" id ="NodeJs" name="Additional Skills" value="Node Js">
+<label for="NodeJs">NodeJs</label>
+<br>
+
+
+<input type ="checkbox" id ="Database Management" name="Additional Skills" value="Database Management">
+<label for="Database Management">Database Management</label>
+<br>
+
+
+<input type ="checkbox" id ="Cloud / Dev-Ops" name="Additional Skills" value="Cloud / Dev-Ops">
+<label for="Cloud / Dev-Ops">Cloud / Dev-Ops</label>
+<br>
+
+Pefered Work type:
+<select name="Work type" id="work type">
+    <option value = "none">Select the below options</option>
+    <option value = "work from home">Work From Home</option>
+    <option value = "work from office">Work From office</option>
+</select>
+
+<hr>
+
+<h2>Final Confirmation</h2><br>
+<input type ="checkbox" value="True" required>I am legally authorised to work in India.
+<br>
+
+<label>How did you hear about us?</label>
+<input type="text" placeholder="e.g : Linkedin">
+<br>
+<button type="submit">Submit Application</button>
+<button type="reset">Clear Form</button>
+
+    <form>
+
+    </form>
+</body>
+</html>

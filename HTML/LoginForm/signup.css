@@ -1,0 +1,55 @@
+*{
+    /* background-color: beige;
+    padding: 0px;
+     padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    border-radius: 30px;
+} */
+
+
+.box {
+    width: 200px;
+    background-color: rgb(244, 244, 244);
+    padding: 30px; /* 60px is a bit too much for a 300px box */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; /* Add this to stack children vertically */
+    align-items: center;
+}
+
+body {
+    background-color: rgb(215, 239, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif; /* Optional: makes text look better */
+}
+
+h1 {
+    background-color: plum;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255); /* Optional for readability */
+    width: 100%;
+}
+
+.input {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px\; spacing between label/input */
+    margin-top: 20px;
+}
+
+button {
+    width: 100px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    cursor: pointer;
+}
+}

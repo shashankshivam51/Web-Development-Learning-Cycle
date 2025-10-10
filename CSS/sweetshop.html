@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css";
+</head>
+<body>
+    <main>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shashank's Sweet Shop</title>
+</head>
+<body>
+  <h1>Welcome to Shashank's Sweet Shop</h1>
+  <p>
+    At our <span>best sweet shop</span> sweet shop in Patna, we bring you the authentic taste of traditional Indian sweets. 
+    Every sweet is freshly prepared with love, care, and the finest ingredients. 
+    Come taste the sweetness of tradition!
+  </p>
+
+  <h2 id ="koyla">Our Special Sweets</h2>
+  <ul class="navb">
+    <li>Rasgulla</li>
+    <li>Gulab Jamun</li>
+    <li>Kaju Katli</li>
+    <li>Ladoo</li>
+    <li>Chamcham</li>
+  </ul>
+
+  <style>
+  nav a {
+    display: inline-block; /* Make the links behave like hybrid blocks */
+    background-color: rgb(49, 102, 97);
+    color: white;
+    padding: 10px 15px; /* Now padding works properly */
+    margin: 5px; /* And margin works properly */
+  }
+
+  .navb {
+  background-color: lightgray; 
+  display: inline-block;
+    font-size: 18px;
+  padding: 0px;
+  list-style-type: none;
+  margin: 0;
+  
+}
+</style>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+  <h2>Order Form</h2>
+  <form id="form">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="sweet">Choose a Sweet:</label><br>
+    <select id="sweet" name="sweet">
+      <option value="rasgulla">Rasgulla</option>
+      <option value="gulab-jamun">Gulab Jamun</option>
+      <option value="kaju-katli">Kaju Katli</option>
+      <option value="ladoo">Ladoo</option>
+      <option value="chamcham">Chamcham</option>
+    </select><br><br>
+
+    <label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1"><br><br>
+
+    <input type="submit" value="Place Order">
+  </form>
+    </main>
+</body>
+</html>

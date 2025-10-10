@@ -1,0 +1,42 @@
+h1{
+    background-color: aqua;
+
+}
+*{
+    margin: 0px;
+    padding: 5px;
+}
+span{
+    color: blueviolet;
+}
+
+
+p{
+    color: darkkhaki;
+    background-color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 5px;
+}
+h2{
+    color: brown;
+    border-color: black;
+    width: 100pt;
+    border-style: solid;
+    margin: 1px;
+    display:
+}
+
+ul{
+     display: inline-block; /* Make the links behave like hybrid blocks */
+    background-color: steelblue;
+    color: white;
+    padding: 10px 15px; /* Now padding works properly */
+    margin: 5px; /* And margin works properly */
+}
+#koyla{
+    display: inline;
+    background-color: beige;
+}
